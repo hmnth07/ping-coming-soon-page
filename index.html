@@ -7,28 +7,57 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+  <header>
+    <div>
+      <img class="logo" src="images/logo.svg">
+    </div>
+  </header>
 
-  We are launching soon!
+  <main>
+    <div class="topText">
+      <p class="greyText">We are launching</p> <strong>soon!</strong>
+    </div>
+    <p>Subscribe and get notified</p>  
 
-  Subscribe and get notified
+    <form name="form1" class="formcontainer">
+      <div>
+        <input type="email" id="myEmail" name="email" value="Your email address...">
+        <p id="demo"></p>
+      </div>
+      
+      <div>
+        <button type="button" onclick="myFunction(document.form1.email)">Notify Me</button>
+      </div>
+      
+    </form>
 
-  Notify Me
+    
 
-  &copy; Copyright Ping. All rights reserved.
+    <div class="image-section">
+      <img class="image" src="images/illustration-dashboard.png">
+    </div>
+  </main>
 
   <footer>
+    <div class="social">
+      <a href="https://twitter.com/hmnthRavula" class="fa fa-twitter" target="_blank"></a>
+      <a href="#" class="fa fa-github" target="_blank"></a>
+      <a href="#" class="fa fa-linkedin" target="_blank"></a>
+    </div>
+
+    <p class="greyText">&copy; Copyright Ping. All rights reserved.</p>
+    
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://twitter.com/hmnthRavula">Hemanth Ravula</a>.
     </p>
   </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
