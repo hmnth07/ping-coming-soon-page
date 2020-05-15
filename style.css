@@ -50,6 +50,7 @@ button:hover {
    color: hsl(354, 100%, 66%);
    font-size: 10px;
    margin-block-start: 1px;
+   font-style: italic;
 
 }
 .image-section {
