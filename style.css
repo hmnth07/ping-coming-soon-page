@@ -25,7 +25,7 @@ header {
    border-radius: 20px;
    border: 1px solid hsl(223, 100%, 88%);
    margin-right: 5px;
-   opacity: 0.4;
+   opacity: 0.9;
 }
 
 button {
@@ -48,8 +48,8 @@ button:hover {
 }
 #demo {
    color: hsl(354, 100%, 66%);
-   font-size: 10px;
-   margin-block-start: 1px;
+   font-size: 15px;
+   margin-block-start: 5px;
    font-style: italic;
 
 }
